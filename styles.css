@@ -106,6 +106,7 @@ a{
     color: white;
     font-weight: 600;
     border: 2px solid rgb(0, 0, 0);
+    flex-shrink: 0;
 }
 
 .centered-image{
@@ -128,17 +129,17 @@ a{
     display: block;
     text-align: center;
     flex-grow: 0;
+    color: white;
 }
 
 .card-container{
     height: 60%;
-    background-color: steelblue;
+    background: linear-gradient(rgb(240, 126, 20), black);
     display: flex;
     flex-direction: column;
 }
 
 .cards{
-    background-color: aliceblue;
     flex: 1;
     display: flex;
     justify-content: space-around;
