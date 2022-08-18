@@ -66,11 +66,12 @@ button:active{
 
 .header-logo p{
     font-weight: 600;
-    padding-left: 100px;
+    padding-left: min(100px, 15%);
 }
 
 .links{
     padding-left: 75px;
+    padding-right: 75px;
     display: flex;
     gap: 20px;
 }
@@ -192,7 +193,7 @@ button:active{
 
 .card-text{
     text-align: center;
-    height: 30%;
+    height: auto;
     padding: 0px 35px;
     font-size: 22px;
     color: white;
