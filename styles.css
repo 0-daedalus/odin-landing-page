@@ -198,7 +198,7 @@ button:active{
     font-size: 22px;
     color: white;
     font-weight: 600;
-    overflow: clip visible;
+    overflow-x: clip;
 }
 
 .quote-container{
